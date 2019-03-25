@@ -1,0 +1,53 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1465965407'); /* IE9*/
+  src: url('iconfont.eot?t=1465965407#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1465965407') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1465965407') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1465965407#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-start:before { content: "\e606"; }
+.icon-wenjian:before { content: "\e61f"; }
+.icon-resource2-copy:before { content: "\e600"; }
+.icon-tupian:before { content: "\e6e9"; }
+.icon-tupian1:before { content: "\e64e"; }
+.icon-tupian2:before { content: "\3463"; }
+.icon-tupian3:before { content: "\e6b5"; }
+.icon-yinle:before { content: "\e6b5"; }
+.icon-yinle1:before { content: "\f00c6"; }
+.icon-daojianfu:before { content: "\e673"; }
+.icon-jianicon:before { content: "\e601"; }
+.icon-shanzi:before { content: "\e60e"; }
+.icon-bi:before { content: "\e602"; }
+.icon-jian:before { content: "\e624"; }
+.icon-19:before { content: "\e615"; }
+.icon-san:before { content: "\e66f"; }
+.icon-luntan:before { content: "\e624"; }
+.icon-iconfontweibowukuang:before { content: "\e661"; }
+.icon-huodongzhongxin:before { content: "\e626"; }
+.icon-celue:before { content: "\e60c"; }
+.icon-gonglve:before { content: "\e73b"; }
+.icon-ziliao:before { content: "\e637"; }
+.icon-ziliao1:before { content: "\e711"; }
+.icon-banbengengxin:before { content: "\e627"; }
+.icon-banbenxinxi:before { content: "\e6db"; }
+.icon-erji:before { content: "\e63f"; }
+.icon-erjiline:before { content: "\e798"; }
+.icon-wodedaoju:before { content: "\e619"; }
+.icon-fangzi-copy:before { content: "\e600"; }
+.icon-kefu:before { content: "\e621"; }
+.icon-ren:before { content: "\e602"; }
+.icon-xin:before { content: "\e64c"; }
+.icon-xin1:before { content: "\e622"; }
+.icon-xin2:before { content: "\e6ab"; }
+.icon-xin3:before { content: "\e683"; }
+.icon-fuzhuangneiyi:before { content: "\e605"; }

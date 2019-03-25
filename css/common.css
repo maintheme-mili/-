@@ -1,0 +1,427 @@
+.w {
+  width: 1280px;
+  margin: 0 auto;
+}
+.fll {
+  float: left;
+}
+.frr {
+  float: right;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url("../iconfont/iconfont.eot"); /* IE9*/
+  src: url("../iconfont/iconfont.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../iconfont/iconfont.woff") format("woff"),
+    /* chrome、firefox */ url("../iconfont/iconfont.ttf") format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("../iconfont/iconfont.svg#iconfont") format("svg"); /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 头部 */
+.header_ll {
+  height: 40px;
+  margin: 0 auto;
+  background: url("../imgs/ost-bg.png") 0 0 #ffffff;
+}
+.header_ll_ul {
+  position: relative;
+  z-index: 2;
+  height: 40px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.ostTx {
+  display: inline-block;
+  height: 40px;
+  width: 220px;
+  margin-right: 2px;
+  background: url(../imgs/ost-bg.png) 0 -40px no-repeat;
+  /* position: relative; */
+}
+.ll_dnf {
+  width: 230px;
+  height: 40px;
+}
+.ll_dnf:hover {
+  cursor: pointer;
+}
+.header_Pic {
+  position: relative;
+  top: -40px;
+  left: -215px;
+  z-index: 1;
+  display: none;
+}
+.header_Pic:hover {
+  cursor: pointer;
+}
+.ll_community,
+.ll_centre {
+  display: block;
+  height: 37px;
+  line-height: 38px;
+  margin: 0 15px;
+}
+.ll_community:hover,
+.ll_centre:hover {
+  border-bottom: 3px solid #4c9684;
+}
+/* .gameTop{
+    cursor: pointer;
+} */
+.ranking {
+  margin-right: 20px;
+  height: 37px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 37px;
+}
+.iconTop {
+  width: 11px;
+  height: 11px;
+
+  background: url("../images/ost-bg.png") no-repeat -150px -134px;
+  position: absolute;
+  top: 14px;
+  right: 0px;
+}
+/* 排行榜开始 */
+
+/******/
+.ostRank {
+    display: none;
+    position: absolute;
+    right: -4px;
+    z-index: 3;
+    width: 698px;
+    height: 440px;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: SimSun;
+    color: #999;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.ostRank a {
+    color: #707e91;
+    text-decoration: none;
+}
+
+.ostRank a:hover {
+    color: #FF4E00;
+    text-decoration: underline;
+}
+
+.ostRank .iconOst {
+    width: 15px;
+    height: 9px;
+    position: absolute;
+    top: -9px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.ostRank .iconOst s {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    font: 400 15px/15px consolas;
+}
+
+.ostRank .iconFont {
+    font-family: arial;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/* ==== rank col ==== */
+.ostRankCol {
+    float: left;
+    width: 212px;
+    height: 422px;
+    padding: 0 10px;
+    margin: 17px 0 8px;
+    border-left: 1px solid #e2e2e2;
+    margin-left: -1px;
+}
+
+.ostRankCol .colHead,
+.ostRank_col .colHead2 {
+    float: left;
+    width: 207px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    height: 18px;
+}
+
+.ostRankCol .colHead {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ostRankCol .colBody {
+    float: left;
+}
+
+.ostRankCol .rankTitle {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #555;
+}
+
+.ostRankCol .rankMore {
+    float: right;
+}
+
+/* rank list */
+.ostRankCol .rankList {
+    float: left;
+    list-style: none;
+    padding: 9px 0 0;
+    margin: 0;
+}
+
+.ostRankCol .rankItem, .ostRankCol .rankHead {
+    float: left;
+    width: 212px;
+    overflow: visible;
+    padding: 0;
+}
+
+.ostRankCol .rankHead {
+    height: 27px;
+}
+
+.ostRankCol .current .rankGameCover {
+    display: block;
+}
+
+.ostRankCol .current .ctipText {
+    display: none;
+}
+
+.ostRankCol .current .rankOrderColor, .ostRankCol .current .rankOrderGray {
+    position: relative;
+    z-index: 10;
+    margin-bottom: -14px;
+}
+
+.ostRankCol .rankOrderHd {
+    float: left;
+    width: 33px;
+}
+
+.ostRankCol .rankNameHd {
+    float: left;
+    width: 170px;
+}
+
+.ostRankCol .rankGameData {
+    height: 18px;
+    overflow: hidden;
+}
+
+.ostRankCol .rankOrderColor,
+.ostRankCol .rankOrderGray {
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 2px 15px 0 4px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.ostRankCol .rankOrderGray {
+    border: 1px solid #999;
+    background: #fff;
+}
+
+.ostRankCol .rankOrderColor {
+    color: #fff;
+    border: 1px solid #ff4e00;
+    background: #ff4e00;
+}
+
+.ostRankCol .rankNameGame {
+    display: inline;
+    float: left;
+    padding-bottom: 9px;
+}
+
+/* ==== rank tip ==== */
+.iconHome,
+.iconDownload,
+.iconHome2,
+.iconIos,
+.iconAndroid {
+    display: inline-block;
+    font-size: 0.1em;
+    margin: 0 5px;
+    vertical-align: top;
+    background-image: url(../images/ost_rank_sp.png);
+    background-repeat: no-repeat;
+}
+
+.iconHome,
+.iconDownload {
+    width: 13px;
+    height: 13px;
+}
+
+.iconHome {
+    background-position: 0 0;
+}
+
+.gameLink:hover .iconHome {
+    background-position: 0 -17px;
+}
+
+.iconDownload {
+    background-position: -14px 0;
+}
+
+.gameLink:hover .iconDownload {
+    background-position: -14px -17px;
+}
+
+.iconHome2,
+.iconIos,
+.iconAndroid {
+    width: 15px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.iconHome2 {
+    background-position: -28px 0;
+}
+
+.gameLink:hover .iconHome2 {
+    background-position: -28px -17px;
+}
+
+.iconIos {
+    background-position: -44px 0;
+}
+
+.gameLink:hover .iconIos {
+    background-position: -44px -17px;
+}
+
+.iconAndroid {
+    background-position: -60px 0;
+}
+
+.gameLink:hover .iconAndroid {
+    background-position: -60px -17px;
+}
+
+.rankGameCover {
+    display: none;
+    position: relative;
+    width: 194px;
+    height: 82px;
+    margin-left: 4px;
+    overflow: hidden;
+    padding: 1px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.rankGameCover .gameMeta,
+.rankGameCover .gameMeta2 {
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    margin: 0;
+    padding: 0;
+    width: 194px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.rankGameCover .gameMeta {
+    height: 28px;
+}
+
+.rankGameCover .gameMeta2 {
+    height: 28px;
+}
+
+.rankGameCover .gameMeta .gameLink {
+    float: left;
+    width: 97px;
+    height: 13px;
+    line-height: 13px;
+    padding: 7px 0 8px;
+    color: #aaa;
+    text-align: center;
+    cursor: pointer;
+}
+
+.rankGameCover .gameMeta .gameLink:hover {
+    color: #ff4e00;
+}
+
+.rankGameCover .gameMeta2 .gameLink {
+    float: left;
+    width: 64px;
+    border-left: 1px solid #707070;
+    margin-left: -1px;
+    height: 16px;
+    line-height: 16px;
+    padding: 6px 0 6px;
+    text-align: center;
+}
+
+/*排行榜结束*/
+
+
+/* 尾部 */
+.end_ll{
+   
+    height: 120px;
+    background-color: #202020;
+    margin-top: 15px;
+    
+}
+.end_ll a {
+    color: #fff;
+}
+.end_ll_hd{
+    width: 600px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.end_ll p  {
+    width: 484px;
+margin: 0 auto;
+}
+.end_ll .copyright {
+    width: 120px;
+    margin: 0 auto;
+}
+body{
+    position: relative;
+    height: 100%;
+  }
+  .snow { position: absolute; left: 0; top: 0; right: 0; bottom: 0; height: 100%; }
+  canvas {
+      width: 100%;
+      height: 100%;
+    display: block;
+  }
+  
